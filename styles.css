@@ -1,0 +1,230 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+body{
+
+    background:#f4f4f4;
+
+}
+header{
+
+    background:#fff;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+.logo-img{
+
+    width:220px;
+
+}
+nav{
+
+    margin-top:15px;
+
+}
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+nav a{
+
+    text-decoration:none;
+
+    color:#444;
+
+    border:1px solid #d8a5a5;
+
+    padding:10px 25px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+nav a:hover{
+
+    background:#d8a5a5;
+
+    color:white;
+
+}
+.banner{
+
+    background:#ffe5ea;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+.banner h1{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+.banner p{
+
+    font-size:20px;
+
+    margin-bottom:20px;
+
+}
+.boton{
+
+    background:black;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:30px;
+
+}
+.categorias{
+
+    padding:40px;
+
+    background:white;
+
+}
+.categorias h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+.contenedor-categorias{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+.categoria{
+
+    width:140px;
+
+    height:90px;
+
+    background:#fff2f4;
+
+    border-radius:15px;
+
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+
+
+    font-weight:bold;
+
+}
+main{
+
+    padding:40px;
+
+}
+main h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+.productos{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+.producto{
+
+    width:220px;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+
+    text-align:center;
+
+    padding-bottom:15px;
+
+}
+.producto img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+}
+.producto h3{
+
+    margin:15px 0 10px;
+
+}
+.producto p{
+
+    color:#e63946;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+footer{
+
+    background:#222;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-top:50px;
+
+}
